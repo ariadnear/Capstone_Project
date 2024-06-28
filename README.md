@@ -1,6 +1,6 @@
 ## Detecting Healthcare Fraud: Machine Learning Approaches for Medicare Insurance Claims
 
-Authors: Ariadne Aizprua & Connie Cabrera
+Project Authors: Ariadne Aizprua & Connie Cabrera
 
 ### Abstract
 This project addresses the critical issue of Medicare claim fraud by employing advanced machine learning techniques to detect fraudulent activities. Utilizing a quantitative research design, the study relied on Borderline Synthetic Minority Over-Sampling Technique (SMOTE) to balance the dataset and applied three supervised learning techniques: LightGBM (Gradient Boosting Machine), XGBoost, and Random Forest. Feature selection was conducted using Recursive Feature Elimination (RFE) and correlation techniques to remove or exclude irrelevant variables. The top 5 crucial features for fraud detection identified from this dataset include State, County, Age, Total Deductible Amount, and Total Reimbursed Amount. The LightGBM model demonstrated the highest performance with an accuracy of 0.81, precision of 0.83, recall of 0.77, F1 score of 0.80, and AUC-ROC score of 0.81. XGBoost also presented strong results, while Random Forest had lower recall. Despite ethical consideration and the limitations of synthetic data, the findings highlight the potential of machine learning to improve fraud detection in Medicare claims, underscoring the need for further research in this area.
