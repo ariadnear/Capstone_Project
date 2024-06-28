@@ -7,6 +7,7 @@ This project addresses the critical issue of Medicare claim fraud by employing a
 
 ### Introduction
 Healthcare fraud, particularly in Medicare claims, poses a significant challenge to the integrity and sustainability of healthcare systems worldwide. According to the U.S. Government Accountability Office (GAO), improper payments in the Medicare program amounted to approximately $51 billion in fiscal year 2023. This includes fraudulent payments, errors, and undocumented payments ((Medicare and Medicaid: Additional Actions Needed to Enhance Program Integrity and Save Billions, n.d.). Detecting fraud in Medicare claims is complex due to numerous factors such as the evolving nature of fraudulent schemes and the sheer volume of claims processed. Medicare fraud is a subset of healthcare fraud which specifically refers to fraudulent activities involving the Medicare program, which is a federal health insurance program primarily for people aged 65 and older, as well as certain younger individuals with disabilities.
+
 According to the Federal Bureau of Investigations (FBI), fraudulent activities by medical providers within the Medicare program involve various deceptive practices aimed at unlawfully acquiring benefits or payments. These include submitting multiple claims for the same service (double billing), billing for services or supplies never received by the patient (phantom billing), submitting multiple bills for the same service (unbundling), and charging for a higher-cost service than provided (upcoding).
 These illicit activities aim to defraud insurance companies, government healthcare programs, or patients (Health Care Fraud, 2022). To combat this issue, laws and regulations are in place to prevent and detect Medicare fraud in the United States. However, detecting fraudulent claims remains challenging, necessitating innovative approaches such as data analysis and machine learning. This project aims to address this challenge by employing exploratory data analysis (EDA) and predictive modeling to identify fraudulent patterns and improve detection accuracy.
 
@@ -19,5 +20,11 @@ This project uses synthetic healthcare data to develop and evaluate fraud detect
 ### Data Collection
 #### Data Source and Details
 This study explores healthcare fraud claims using the “Healthcare Provider Fraud Detection" dataset obtained from Kaggle.com. The dataset, curated by Rohit Anand Gupta, offers comprehensive information on Medicare Claims sourced from the Centers for Medicare & Medicaid Services (CMS). Named “Medicare Date Entrepreneurs’ Synthetic”, it consists of synthesized data representing 5% random sample of Medicare beneficiaries in 2008 and their claims from 2008 to 2009. The original data experienced significant modifications to protect beneficiary privacy and minimize re-identification risks, while maintaining the general structure of the original Medicare beneficiary file. However, due to these alterations, findings cannot be directly extrapolated to the actual Medicare population.
-The data includes four main datasets. The Beneficiary Dataset contains demographic, clinical, and economic information about patients. The Inpatient Dataset includes claim data for patients hospitalized for medical services, while the Outpatient Dataset comprises claim data for non-hospitalized patients. Lastly, the Provider Dataset contains provider IDs and fraud labels.
+
+The data includes four main datasets.
+
+<img width="1335" alt="Screenshot 2024-06-28 at 12 08 51 PM" src="https://github.com/ariadnear/Capstone_Project/assets/146493977/a5955e35-919a-49ce-b805-8fe51fa60574">
+
+
+
 
